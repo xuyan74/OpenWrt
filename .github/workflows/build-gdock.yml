@@ -3,14 +3,14 @@
 #   Author: JK
 #=================================================
 
-name: Build 竞斗云+passwall-20200208
+name: Build 竞斗云+passwall-20200215
 
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
 #  watch:
 #    types: [started]
 jobs:
